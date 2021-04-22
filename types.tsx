@@ -18,7 +18,16 @@ export type TabTwoParamList = {
 };
 
 export type Album = {
+  // id: '12',
+  // name: '',
+  // by: '',
+  // numberOfLikes: 1,
+  // imageUri: 'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
+  // artistsHeadline: 'Post Malone, Drake, Eminem'
   id: string;
+  name: string;
+  by: string;
+  numberOfLikes: number;
   imageUri: string;
   artistsHeadline: string;
 }

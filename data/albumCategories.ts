@@ -35,12 +35,16 @@ export default [{
             artistsHeadline: 'Bob Marley, Cardi B, Stas Mihailov'
         },
     ]
-}, {
+},
+    {
     id: '2',
     title: 'Popular Playlists',
     albums: [
         {
             id: '5',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
             artistsHeadline: 'Taylor Swift, Kygo Objective C, Avicii'
         }, {
@@ -50,6 +54,9 @@ export default [{
         },
         {
             id: '7',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://images-na.ssl-images-amazon.com/images/I/61F66QURFyL.jpg',
             artistsHeadline: 'Journey, Escape, Avicii'
         },
@@ -60,15 +67,24 @@ export default [{
     albums: [
         {
             id: '8',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
             artistsHeadline: 'Taylor Swift, Kygo Objective C, Avicii'
         }, {
             id: '9',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
             artistsHeadline: 'Post Malone, Drake, Eminem'
         },
         {
             id: '10',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://images-na.ssl-images-amazon.com/images/I/61F66QURFyL.jpg',
             artistsHeadline: 'Journey, Escape, Avicii'
         },
@@ -79,15 +95,24 @@ export default [{
     albums: [
         {
             id: '11',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://cache.boston.com/resize/bonzai-fba/Globe_Photo/2011/04/14/1302796985_4480/539w.jpg',
             artistsHeadline: 'Taylor Swift, Kygo Objective C, Avicii'
         }, {
             id: '12',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://cdn6.f-cdn.com/contestentries/1485199/27006121/5ca3e39ced7f1_thumb900.jpg',
             artistsHeadline: 'Post Malone, Drake, Eminem'
         },
         {
             id: '13',
+            name: '',
+            by: '',
+            numberOfLikes: 1,
             imageUri: 'https://images-na.ssl-images-amazon.com/images/I/61F66QURFyL.jpg',
             artistsHeadline: 'Journey, Escape, Avicii'
         },
