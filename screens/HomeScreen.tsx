@@ -4,6 +4,9 @@ import { StyleSheet, FlatList, View  } from 'react-native';
 
 import AlbumCategory from '../components/AlbumCategory';
 import albumCategories from '../data/albumCategories';
+import {NavigationContainer} from "@react-navigation/native";
+import {createStackNavigator} from "@react-navigation/stack";
+import AlbumScreen from "./AlbumScreen";
 
 export default function HomeScreen() {
     return (

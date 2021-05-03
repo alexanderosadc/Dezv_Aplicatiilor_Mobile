@@ -1,5 +1,5 @@
 
-import { Ionicons, Entypo, EvilIcons, MaterialCommunityIcons, FontAwesome5 } from '@expo/vector-icons';
+import { Ionicons, Entypo, EvilIcons, MaterialCommunityIcons, FontAwesome5, AntDesign } from '@expo/vector-icons';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { createStackNavigator } from '@react-navigation/stack';
 import * as React from 'react';
@@ -48,8 +48,8 @@ export default function BottomTabNavigator() {
                 component={LibraryScreen}
                 options={{
                     tabBarIcon: ({ color }) =>
-                        <MaterialCommunityIcons
-                            name="library-music-outline"
+                        <AntDesign
+                            name="sound"
                             size={30}
                             style={{ marginBottom: -3 }}
                             color={color} />,
