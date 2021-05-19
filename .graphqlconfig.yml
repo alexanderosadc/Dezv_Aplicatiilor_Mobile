@@ -1,0 +1,17 @@
+projects:
+  spotify:
+    schemaPath: >-
+      D:/University/GIT Repos/Programarea Aplicatiilor
+      Mobile/Dezv_Aplicatiilor_Mobile/graphql/schema.json
+    includes:
+      - src/graphql/**/*.ts
+    excludes:
+      - ./amplify/**
+    extensions:
+      amplify:
+        codeGenTarget: typescript
+        generatedFileName: src/API.ts
+        docsFilePath: src/graphql
+extensions:
+  amplify:
+    version: 3
