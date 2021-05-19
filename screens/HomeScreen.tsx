@@ -3,10 +3,6 @@ import * as React from 'react';
 import { StyleSheet, FlatList, View  } from 'react-native';
 
 import AlbumCategory from '../components/AlbumCategory';
-import albumCategories from '../data/albumCategories';
-import {NavigationContainer} from "@react-navigation/native";
-import {createStackNavigator} from "@react-navigation/stack";
-import AlbumScreen from "./AlbumScreen";
 
 import { API, graphqlOperation} from 'aws-amplify';
 import { listAlbumCategorys } from '../src/graphql/queries'

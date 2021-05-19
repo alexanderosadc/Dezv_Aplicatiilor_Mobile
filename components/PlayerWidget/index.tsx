@@ -3,7 +3,6 @@ import {Text, Image, View, TouchableOpacity} from 'react-native';
 import { AntDesign, FontAwesome } from "@expo/vector-icons";
 
 import styles from './styles';
-import {Song} from "../../types";
 import {Audio} from "expo-av"
 import {Sound} from "expo-av/build/Audio/Sound";
 

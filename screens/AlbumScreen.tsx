@@ -4,7 +4,6 @@ import { useRoute } from '@react-navigation/native';
 
 import SongListItem from '../components/SongListItem';
 import AlbumHeader from '../components/AlbumHeader';
-import albumDetails from '../data/albumDetails';
 import { API, graphqlOperation} from 'aws-amplify';
 import { getAlbum } from '../src/graphql/queries'
 

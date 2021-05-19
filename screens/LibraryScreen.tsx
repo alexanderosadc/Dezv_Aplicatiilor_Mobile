@@ -1,10 +1,6 @@
 import React, {useEffect} from 'react';
-import {View, Text, FlatList, StyleSheet} from 'react-native';
+import {View, Text, StyleSheet} from 'react-native';
 import { useRoute } from '@react-navigation/native';
-
-import SongListItem from '../components/SongListItem';
-import AlbumHeader from '../components/AlbumHeader';
-import albumDetails from '../data/albumDetails';
 
 const LibraryScreen = () => {
 
